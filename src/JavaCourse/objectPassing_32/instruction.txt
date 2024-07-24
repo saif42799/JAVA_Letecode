@@ -1,0 +1,1 @@
+use object passing, static keyword for text based game!!!! very usfull
