@@ -28,21 +28,8 @@ public class Solution {
         int[] nums2 = {2,5,6};
         int n = 3;
 
-
-        int limitArrayNum = m + n;
-        int z = 0;
-
-        for(int i = 0; i < nums1.length; i++){
-
-            int x = nums1[z];
-
-            if (x == 0) {
-                
-            }
-
-            z++;
-
-        }
+        // last index nums1
+        last = m + n - 1;
         
 
 
