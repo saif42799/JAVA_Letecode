@@ -1,0 +1,83 @@
+
+
+
+Showcase Problem Solving skills 
+Go over commom alogorithims and data structures 
+
+**Data Structures**
+    -strings
+    -lists
+    -arrays
+    -trees
+    -queues
+    -stacks
+    -graphs
+    -heaps 
+    -hash
+    -tables 
+    -hash maps 
+
+Review
+**Alogorithims**
+    -sorts
+    -searches
+    -recursions
+    -iterative approaches
+    -traversals (breadth first search and depth first search)
+
+
+
+Day 1: Foundations
+
+    Strings and Arrays
+        Practice problems involving substring search, character frequency, and manipulations (e.g., reversing, anagrams).
+        Review array-related concepts like sliding window, two-pointer technique, and prefix sums.
+
+    Lists and Hash Maps
+        Work on linked list problems (reversal, cycle detection).
+        Understand hash maps through frequency counting, lookup optimizations, and handling collisions.
+
+    Sorting and Searching
+        Revise sorting algorithms (merge sort, quicksort) and binary search.
+        Solve problems combining these, like finding pairs in a sorted array.
+
+Day 2: Intermediate Structures
+
+    Stacks and Queues
+        Implement a stack/queue using arrays or linked lists.
+        Solve problems like balancing parentheses and next greater element.
+
+    Trees
+        Review binary trees and binary search trees (insertion, deletion, traversal).
+        Practice preorder, inorder, and postorder traversal.
+
+    Heaps
+        Understand min-heap and max-heap implementations.
+        Solve problems like finding the k-th largest/smallest element.
+
+Day 3: Advanced Concepts
+
+    Graphs
+        Understand adjacency matrix/list representation.
+        Practice BFS and DFS for connected components and shortest paths.
+
+    Recursion vs. Iteration
+        Solve problems recursively, then refactor them iteratively (factorial, Fibonacci, tree traversals).
+        Identify and avoid common pitfalls like stack overflow.
+
+    Dynamic Programming (if time permits)
+        Practice classic problems like knapsack, longest common subsequence.
+
+Day 4: Mock Practice and Review
+
+    Simulate the Interview
+        Attempt timed mock tests on HackerRank or LeetCode.
+        Focus on writing clean, efficient code with proper comments.
+
+    Review Mistakes
+        Analyze weak areas from the mock tests and revisit concepts.
+        Solve at least one problem for each weak area.
+
+    Final Review
+        Go over cheat sheets for algorithms and data structures.
+        Review common complexity classes (O(1), O(log n), O(n), etc.).

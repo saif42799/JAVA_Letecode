@@ -1,6 +1,5 @@
 package Letecode.EasyProblems.TwoSumProblem;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,8 +31,6 @@ public class Solution {
 
         //     num1++;
         //     num2++;
-
-
         // }
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         int[] answer = null;
