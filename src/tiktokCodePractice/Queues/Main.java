@@ -1,6 +1,8 @@
 package tiktokCodePractice.Queues;
 
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class Main {
@@ -8,7 +10,7 @@ public class Main {
         
 
         // Queue = FIFO data structure. First-In First-Out (ex. a line of people)
-        //         A collection designed fro holding elements prior to processing 
+        //         A collection designed for holding elements prior to processing 
         //         Linear data structure
 
         //         add    = enqueue, offer()
@@ -53,9 +55,32 @@ public class Main {
 
         // check if queue has a certain object 
         System.out.println(queue.contains("Harold"));
+        System.out.println(" ");
 
 
 
+
+
+        // Priority Queues
+
+        // Priority Queues = A FIFO data structure that serves elements 
+        //                   with the highest priorities first 
+        //                   before elements with lower priority 
+
+        // data tyoe is queue, insert doubles
+        // PriorityQueues places the queue in order, if you with to reverse the order  you can use Collections.reverseOrder()
+        Queue<Double> queue2 = new PriorityQueue<>(Collections.reverseOrder()); 
+        // adding to queue2 using offer()
+        queue2.offer(3.0);
+        queue2.offer(2.5);
+        queue2.offer(4.0);
+        queue2.offer(1.5);
+        queue2.offer(2.0);
+
+        // diplay elements of queues
+        while (!queue2.isEmpty()) {
+            System.out.println(queue2.poll());
+        }
 
 
 
